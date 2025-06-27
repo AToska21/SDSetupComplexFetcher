@@ -52,7 +52,7 @@
         "name": "Lockpick_RCM",
         "download_function_name": "download_lockpick_rcm",
         "git": {
-            "org_name": "shchmue",
+            "org_name": "Soneoylys",
             "repo_name": "Lockpick_RCM",
             "asset_patterns": [
                 ".*\\.bin"
@@ -73,30 +73,6 @@
         "sdsetup_module_name": "nx_ovlloader"
     },
     {
-        "name": "ovlSysModules",
-        "download_function_name": "download_ovl_sysmodules",
-        "git": {
-            "org_name": "WerWolv",
-            "repo_name": "ovl-sysmodules",
-            "asset_patterns": [
-                ".*\\.ovl"
-            ]
-        },
-        "sdsetup_module_name": "ovl_sysmodules"
-    },
-    {
-        "name": "Status Monitor Overlay",
-        "download_function_name": "download_status_monitor_overlay",
-        "git": {
-            "org_name": "masagrator",
-            "repo_name": "Status-Monitor-Overlay",
-            "asset_patterns": [
-                ".*\\.ovl"
-            ]
-        },
-        "sdsetup_module_name": "status_monitor_overlay"
-    },
-    {
         "name": "sys-clk",
         "download_function_name": "download_sys_clk",
         "git": {
@@ -113,9 +89,9 @@
         "download_function_name": "download_sys_ftpd_light",
         "git": {
             "org_name": "cathery",
-            "repo_name": "sys-ftpd-light",
+            "repo_name": "sys-ftpd",
             "asset_patterns": [
-                ".*sys-ftpd-light.*\\.zip"
+                ".*sys-ftpd.*\\.zip"
             ]
         },
         "sdsetup_module_name": "sys_ftpd"
